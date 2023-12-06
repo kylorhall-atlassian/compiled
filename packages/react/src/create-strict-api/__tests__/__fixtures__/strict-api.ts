@@ -1,4 +1,4 @@
-import { createStrictAPI } from '@compiled/react';
+import { createStrictAPI } from '../../index';
 
 const { css, XCSSProp, cssMap, cx } = createStrictAPI<{
   '&:hover': {
